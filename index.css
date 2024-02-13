@@ -1,0 +1,15 @@
+* { 
+    margin: 0;
+    padding: 0;
+
+
+#header_foreach {
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+}
+
+#header_abonner {
+    display: flex;
+    justify-content: end;
+}
