@@ -4,7 +4,7 @@ main {
     margin: auto;
 }
 
-#titreculture{
+#titreculture , #titre_science_et_vie{
     max-width: 1350px;
     margin: auto;
     background-color: red;
@@ -12,13 +12,13 @@ main {
     font-size: 20px;
 }
 
-.imageculture {
+.imageculture, .imagesv {
     width: 150px;
     height: 150px;
     padding: 10px;
 }
 
-#premiere_liste_culture {
+#premiere_liste_culture, #deuxieme_liste_sv {
     background-color: rgb(222, 72, 125);
     padding:2px 0px;
 }
