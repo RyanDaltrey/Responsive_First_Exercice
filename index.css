@@ -1,0 +1,17 @@
+#navigateur_content {
+    background-color: rgb(232, 102, 102);
+    color: white;
+}
+
+#navigateur_liste {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+li {
+    padding: 5px 150px;
+}
+
+li:hover {
+    background-color: rgb(177, 51, 51) ;  
+}
