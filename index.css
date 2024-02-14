@@ -1,16 +1,25 @@
-
+@font-face {
+    font-family: chunk ;
+    src: url(./assets/fonts/Chunk.ttf);
+}
 main {
     max-width: 1350px;
     margin: auto;
 }
 
+.texte_main {
+    font-weight: bold;
+}
 
 #titreculture , #titre_science_et_vie , #titre_sport{
     max-width: 1350px;
     margin: auto;
     /* background-color: rgb(0, 255, 255); */
     font-weight:bolder;
-    font-size: 20px;
+    font-size: 25px;
+    color: rgb(232,102,102);
+    font-family: chunk;
+    
 }
 
 .imageculture, .imagesv, .imagesport {
@@ -42,7 +51,7 @@ li{
 }
 
 li:hover{
-    background-color: rgb(255, 255, 193);
+    background-color: rgb(244, 244, 148);
 }
 
 li:nth-child(2){
