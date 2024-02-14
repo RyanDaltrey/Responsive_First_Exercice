@@ -187,12 +187,35 @@ main {
 footer {
     background-color:rgb(232, 102, 102) ;
 }
-#texte_footer{
-    max-width: 700px;
+/* #block_footer{ */
+    /* max-width: 700px; */
+    /* display: flex;
+    justify-content: space-around; */
+    /* padding: 5px; */
+    /* margin: 0px 400px; */
+    /* font-size: 12px;
+    color: white; */
+/* } */
+
+#liste_footer {
     display: flex;
     justify-content: space-around;
-    padding: 5px;
-    margin: 0px 400px;
+    align-items: center;
+    margin:0px 150px;
+    list-style: none;
     font-size: 12px;
     color: white;
+}
+.texte_footer{
+    padding: 10px;
+}
+@media screen and(max-width:480px) {
+    
+    #liste_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
 }
