@@ -59,8 +59,6 @@ h1 {
 }
 
 @media screen and (max-width:480px) {
-    #header_foreach {
-    }
     .mobilenon , #header_abonner {
         display: none;
     }
@@ -76,11 +74,11 @@ h1 {
     justify-content: space-evenly;
     list-style: none;
 }
-li {
+.liste {
     padding: 5px 150px;
 }
 
-li:hover {
+.liste:hover {
     background-color: rgb(177, 51, 51) ;  
 }
 
@@ -93,9 +91,96 @@ li:hover {
         flex-direction: column;
         justify-content: center;
     }
-    li {
+    .liste {
         padding: 5px;
         display: flex;
         justify-content: center;
     } 
+}
+
+main {
+    max-width: 1350px;
+    margin: auto;
+}
+
+
+#titreculture , #titre_science_et_vie , #titre_sport{
+    max-width: 1350px;
+    margin: auto;
+    /* background-color: rgb(0, 255, 255); */
+    font-weight:bolder;
+    font-size: 20px;
+}
+
+.imageculture, .imagesv, .imagesport {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+#premiere_liste_culture, #deuxieme_liste_sv, #troisieme_liste_sport {
+    /* background-color: rgb(222, 72, 125); */
+    padding:2px 0px;
+    margin-bottom: 10px;
+}
+
+#block_image{
+    background-color:rgb(223, 220, 220);
+    display: flex;
+    padding: 10px 5px;
+}
+.liste_image{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid rgb(194, 193, 193);
+    
+}
+
+.liste_image:hover{
+    background-color: rgb(255, 255, 193);
+}
+
+.liste_image:nth-child(2){
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.liste_image:nth-child(3) {
+    margin-right: 5px ;
+}
+
+@media screen and (max-width:480px) {
+    main {
+        padding: 20px 10px 10px 10px;
+    }
+    #block_image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .liste_image:nth-child(1) {
+       margin-top:0 ;
+    }
+
+    .liste_image:nth-child(2){
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .liste_image:nth-child(3) {
+        margin-bottom: 10px;
+        margin-right: 0px ;
+    }
+
+    #premiere_liste_culture, #deuxieme_liste_sv, #troisieme_liste_sport {
+        margin: 10px;
+    }
 }
