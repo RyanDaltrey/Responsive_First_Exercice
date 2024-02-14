@@ -184,3 +184,15 @@ main {
         margin: 10px;
     }
 }
+footer {
+    background-color:rgb(232, 102, 102) ;
+}
+#texte_footer{
+    max-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 0px 400px;
+    font-size: 12px;
+    color: white;
+}
