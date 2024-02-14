@@ -22,7 +22,11 @@ h1 {
     color: rgb(232, 102, 102);
 }
 
+button {
+    border: none;
+    background-color: rgb(225, 222, 222);
 
+}
 #background_foreach{
     padding: 5px;
     background-color:rgb(232, 102, 102);
@@ -98,18 +102,28 @@ h1 {
     } 
 }
 
+@font-face {
+    font-family: chunk ;
+    src: url(./assets/fonts/Chunk.ttf);
+}
 main {
     max-width: 1350px;
     margin: auto;
 }
 
+.texte_main {
+    font-weight: bold;
+}
 
 #titreculture , #titre_science_et_vie , #titre_sport{
     max-width: 1350px;
     margin: auto;
     /* background-color: rgb(0, 255, 255); */
     font-weight:bolder;
-    font-size: 20px;
+    font-size: 25px;
+    color: rgb(232,102,102);
+    font-family: chunk;
+    
 }
 
 .imageculture, .imagesv, .imagesport {
