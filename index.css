@@ -2,14 +2,13 @@
 main {
     max-width: 1350px;
     margin: auto;
-    background-color: red;
 }
 
 
 #titreculture , #titre_science_et_vie , #titre_sport{
     max-width: 1350px;
     margin: auto;
-    background-color: rgb(0, 255, 255);
+    /* background-color: rgb(0, 255, 255); */
     font-weight:bolder;
     font-size: 20px;
 }
@@ -21,23 +20,29 @@ main {
 }
 
 #premiere_liste_culture, #deuxieme_liste_sv, #troisieme_liste_sport {
-    background-color: rgb(222, 72, 125);
+    /* background-color: rgb(222, 72, 125); */
     padding:2px 0px;
     margin-bottom: 10px;
 }
 
 ul{
-    background-color: blue;
+    background-color:rgb(223, 220, 220);
     display: flex;
-    padding: 10px 0px;
+    padding: 10px 5px;
 }
 li{
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: white;
     border-radius: 4px;
+    border: 2px solid rgb(194, 193, 193);
+    
+}
+
+li:hover{
+    background-color: rgb(255, 255, 193);
 }
 
 li:nth-child(2){
@@ -57,7 +62,7 @@ li:nth-child(3) {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0;
+        padding: 10px;
     }
 
     li:nth-child(1) {
