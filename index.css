@@ -23,6 +23,7 @@ main {
 #premiere_liste_culture, #deuxieme_liste_sv, #troisieme_liste_sport {
     background-color: rgb(222, 72, 125);
     padding:2px 0px;
+    margin-bottom: 10px;
 }
 
 ul{
@@ -78,5 +79,4 @@ li:nth-child(3) {
     #premiere_liste_culture, #deuxieme_liste_sv, #troisieme_liste_sport {
         margin: 10px;
     }
-
 }
